@@ -5,7 +5,7 @@ export * from './interact-dropzone';
 export * from './interact-gesturable';
 export * from './interact-resizable';
 export * from './resizable';
-import * as Interact from 'interact';
+import * as Interact from 'interactjs';
 
 export function configure(aurelia, options) {
   aurelia.container.registerInstance(Interact, Interact);

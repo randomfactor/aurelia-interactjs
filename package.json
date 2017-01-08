@@ -48,9 +48,11 @@
     "gulp-tslint": "^6.1.1",
     "gulp-typescript": "^2.13.6",
     "gulp-yuidoc": "^0.1.2",
+    "interactjs": "^1.2.8",
     "isparta": "^4.0.0",
     "istanbul": "^1.0.0-alpha.2",
     "jasmine-core": "^2.4.1",
+    "jspm": "^0.16.48",
     "karma": "^1.1.2",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^2.0.0",
@@ -73,23 +75,18 @@
     "registry": "npm",
     "main": "index",
     "format": "amd",
-    "jspmNodeConversion": false,
     "directories": {
       "dist": "dist/amd"
     },
     "dependencies": {
       "aurelia-framework": "^1.0.7",
-      "interact": "npm:interact.js@^1.2.6"
+      "interactjs": "^1.2.8"
     },
     "devDependencies": {
       "aurelia-polyfills": "^1.0.0-beta.1.1.0"
     }
   },
   "dependencies": {
-    "aurelia-framework": "^1.0.2",
-    "interact.js": "^1.2.6"
-  },
-  "peerDependencies": {
-    "interact.js": "^1.2.6"
+    "aurelia-framework": "^1.0.2"
   }
 }
