@@ -8,7 +8,7 @@ System.config({
 
   map: {
     "aurelia-framework": "npm:aurelia-framework@1.0.7",
-    "aurelia-polyfills": "npm:aurelia-polyfills@1.1.1"
+    "aurelia-polyfills": "npm:aurelia-polyfills@1.1.1",
     "interactjs": "npm:interactjs@1.2.8",
     "npm:aurelia-binding@1.0.9": {
       "aurelia-logging": "npm:aurelia-logging@1.2.0",
